@@ -10,17 +10,21 @@
         <title>Portofolio</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="styles/global.css">
     </head>
     <body>
         <!-- HEADER -->
         <header>
+            <p class="initiales">
+                TI
+            </p>
             <nav>
                 <ul>
                     <li><a href="#presentation">Présentation</a></li>
                     <li><a href="#projets">Projets</a></li>
                     <li><a href="#parcours">Parcours</a></li>
                     <li><a href="#competences">Compétences</a></li>
+                    <li><button>Me contacter</button></li>
                 </ul>
             </nav>
         </header>
@@ -30,19 +34,27 @@
 
             <!-- Présentation -->
             <section id="presentation">
-                <h2>Présentation</h2>
+                <!-- <h2>
+                    <span class="titre">Présentation</span>
+                    <span class="line"></span>
+                </h2> -->
 
                 <div id="presentation__blocs">
 
                     <!-- gauche -->
                     <div id="presentation__blocs--gauche">
-                        <p> TEST </p>
+                        <h4 class="roles"> FRONTEND DEVELOPER • UX DESIGNER </h4>
+                        <div class="names">
+                            <h4 class="name firstname"> THIBAUT</h4>
+                            <h4 class="name lastname"> IZARD</h4>
+                        </div>
+                        <p> Développeur et designer basé à Toulouse.</p>
+                        <p> 👋 Besoin d'aide pour votre projet ? <span style="font-weight:600; cursor:pointer;">Parlons-en</span></p>
                     </div>
 
                     <!-- droit -->
                     <div  id="presentation__blocs--droite">
-                        <h3>Bonjour 👋</h3>
-                        <h5> Je m'appelle Kyle et je suis développeur web et mobile</h5>
+                        <img src="./static/img/photo.png"/>
                     </div>
                 </div>
 
@@ -50,49 +62,52 @@
 
             <!-- Projets -->
             <section id="projets">
-                <h2>Projets</h2>
+                <h2>
+                    <span class="titre">Projets & Demos</span>
+                    <span class="line"></span>
+                </h2>
 
                 <!-- Carroussel projets -->
-                <div id="carroussel">
+                <div class="carroussels">
 
-                    <div class="carroussel__defilement__miniatures carroussel__defilement__miniatures--gauche">
-                        <div class="carroussel__defilement__miniature"></div>
-                        <div class="carroussel__defilement__miniature"></div>
-                        <div class="carroussel__defilement__miniature"></div>
-                        <div class="carroussel__defilement__miniature"></div>
-                        <div class="carroussel__defilement__miniature"></div>
+                    <div class="carroussel projets">
+
+                        <div class="container">
+
+
+                        </div>
+
+                        <div class="container">
+
+
+                        </div>
+
+
                     </div>
 
-                    <div class="carroussel__defilement__miniatures carroussel__defilement__miniatures--droite">
-                        <div class="carroussel__defilement__miniature"></div>
-                        <div class="carroussel__defilement__miniature"></div>
-                        <div class="carroussel__defilement__miniature"></div>
-                        <div class="carroussel__defilement__miniature"></div>
-                        <div class="carroussel__defilement__miniature"></div>
+                    <div class="carroussel maquettes">
+
+                        <div class="container">
+
+                            <div class="miniature">4</div>
+                            <div class="miniature">3</div>
+                            <div class="miniature">2</div>
+                            <div class="miniature">1</div>
+
+                        </div>
+
+                        <div class="container">
+
+                            <div class="miniature">4</div>
+                            <div class="miniature">3</div>
+                            <div class="miniature">2</div>
+                            <div class="miniature">1</div>
+
+                        </div>
+
+
                     </div>
 
-                    <!-- <div class="carroussel__defilement__miniatures carroussel__defilement__miniatures--droite">
-
-                            <div class="carroussel__defilement__miniature">
-
-                            </div>
-
-                            <div class="carroussel__defilement__miniature">
-
-                            </div>
-
-                            <div class="carroussel__defilement__miniature">
-
-                            </div>
-
-                            <div class="carroussel__defilement__miniature">
-
-                            </div>
-
-                            <div class="carroussel__defilement__miniature">
-
-                            </div>
-                    </div> -->
                 </div>
 
             </section>
@@ -116,6 +131,6 @@
             <h4>footer</h4>
         </footer> -->
 
-        <script src="script/animation.js" async defer></script>
+        <script src="scripts/animation.js" async defer></script>
     </body>
 </html>
