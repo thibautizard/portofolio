@@ -1,0 +1,78 @@
+/* QUATRE TAILLES
+Desktop-xl : 1800px;
+Desktop-medium : 1400px;
+Desktop-small: 1100px
+Tablette : 750px;
+Mobile: 350px;
+*/
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.ttf');
+    font-style:normal;
+    font-weight: 400;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Bold.ttf');
+    font-style:bold;
+    font-weight: 600;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Light.ttf');
+    font-style:bold;
+    font-weight: 400;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-ExtraBold.ttf');
+    font-style:bold;
+    font-weight: 800;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Black.ttf');
+    font-weight: 900;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url('./fonts/NotoSans-Regular.ttf');
+    font-style:normal;
+    font-weight: 400;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('./fonts/Oswald-Medium.ttf');
+    font-style:normal;
+    font-weight: 400;
+    font-display:swap;
+}
+
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('./fonts/Oswald-SemiBold.ttf');
+    font-style:bold;
+    font-weight: 700;
+    font-display:swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('./fonts/Oswald-Light.ttf');
+    font-weight: 200;
+    font-display:swap;
+}
