@@ -1,0 +1,7 @@
+{
+  "tabWidth": 2,
+  "useTabs": false,
+  "no-semi": true,
+  "print-width":10000,
+  "arrow-parens": "avoid"
+}
